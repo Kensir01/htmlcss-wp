@@ -12,7 +12,6 @@
 
 
 header{
-    /* background-color: rgb(229, 121, 230) ; */
     height: 100px;
     width: 100%;
     margin-bottom: 20px;
@@ -44,7 +43,6 @@ nav {
 }
 
 .s1{
-    /* background-color: rgb(225, 214, 122) ; */
     height: 500px;
     width: 100%;
     margin-bottom: 20px;
@@ -92,15 +90,12 @@ nav {
 }
 
 .s2 {
-    /* background-color: rgb(1, 133, 255); */
     width: 100%;
     height: 700px; 
-    /* era 500 */
     margin-bottom: 10px;
 }
 
 .intestazione {
-    /* background-color: rgb(171, 207, 231); */
     height: 80px;
     width: 100%;
     margin-bottom: 15px;
@@ -118,9 +113,7 @@ nav {
 }
 
 .elemento {
-    /* background-color: rgb(171, 207, 231); */
     height: 605px;
-    /* era 400 */
 }
 
 .sinistra {
@@ -130,11 +123,11 @@ nav {
     position: relative;
 }
 
-.sinistra h3 {
+.s2 h3 {
     font-weight: 300;
 }
 
-.sinistra p {
+.s2 p {
     color: #a0a0a0;
 }
 
@@ -164,26 +157,10 @@ nav {
     position: relative;
 }
 
-.centro h3 {
-    font-weight: 300;
-}
-
-.centro p {
-    color: #a0a0a0;
-}
-
 .destra {
     float:right;
     width: 22%;
     position: relative;
-}
-
-.destra h3 {
-    font-weight: 300;
-}
-
-.destra p {
-    color: #a0a0a0;
 }
 
 .clearfix {
@@ -191,7 +168,18 @@ nav {
 } 
 
 footer {
-    background-color: rgb(136, 1, 254) ;
     height: 50px;
     width: 100%;
+    position: relative;
+}
+
+.credits {
+    position: relative;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#cuore {
+    color: red;
+    font-size: 30px;
 }
