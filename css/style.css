@@ -92,7 +92,7 @@ nav {
 }
 
 .s2 {
-    background-color: rgb(1, 133, 255);
+    /* background-color: rgb(1, 133, 255); */
     width: 100%;
     height: 700px; 
     /* era 500 */
@@ -100,7 +100,7 @@ nav {
 }
 
 .intestazione {
-    background-color: rgb(171, 207, 231);
+    /* background-color: rgb(171, 207, 231); */
     height: 80px;
     width: 100%;
     margin-bottom: 15px;
@@ -118,7 +118,7 @@ nav {
 }
 
 .elemento {
-    background-color: rgb(171, 207, 231);
+    /* background-color: rgb(171, 207, 231); */
     height: 605px;
     /* era 400 */
 }
@@ -138,10 +138,21 @@ nav {
     color: #a0a0a0;
 }
 
-#banner-sinistra {
+#banner-secondari {
     object-fit: cover;
     height: 35%;
     width: 100%;
+    border-radius: 15px;
+}
+
+.overlay-secondari {
+    position: absolute;
+    height: 35%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 }
 
@@ -154,26 +165,26 @@ nav {
 }
 
 .centro h3 {
-
+    font-weight: 300;
 }
 
 .centro p {
-
+    color: #a0a0a0;
 }
-
-#banner-centro {
-    object-fit: cover;
-    height: 35%;
-    width: 100%;
-    border-radius: 15px;
-}
-
 
 .destra {
     float:right;
     width: 22%;
+    position: relative;
 }
 
+.destra h3 {
+    font-weight: 300;
+}
+
+.destra p {
+    color: #a0a0a0;
+}
 
 .clearfix {
     clear: both;
