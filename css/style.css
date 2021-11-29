@@ -26,6 +26,22 @@ header{
     height: 50%;
 }
 
+nav {
+    margin-top: -20px;
+}
+
+
+.menu li {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu a {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
 .s1{
     background-color: rgb(225, 214, 122) ;
     height: 500px;
